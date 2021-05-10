@@ -326,8 +326,10 @@ BUILD/B_L4S5I_IOT01A/GCC_ARM-TFLITE/main.o: main.cpp \
  mbed_rpc/mbed_rpc/Arguments.h \
  /home/ee2405/ee2405/mbed-os-build/connectivity/mbedtls/include/mbedtls/platform.h \
  mbed_rpc/mbed_rpc/RPCVariable.h mbed_rpc/mbed_rpc/RPCFunction.h \
- mbed_rpc/mbed_rpc/RpcClasses.h accelerometer_handler.h \
- tensorflowlite_mbed/tensorflow/lite/c/common.h \
+ mbed_rpc/mbed_rpc/RpcClasses.h 4dgl-ulcd-se/uLCD_4DGL.h \
+ /home/ee2405/ee2405/mbed-os-build/platform/include/platform/Stream.h \
+ /home/ee2405/ee2405/mbed-os-build/platform/include/platform/FileLike.h \
+ accelerometer_handler.h tensorflowlite_mbed/tensorflow/lite/c/common.h \
  tensorflowlite_mbed/tensorflow/lite/micro/micro_error_reporter.h \
  tensorflowlite_mbed/tensorflow/lite/core/api/error_reporter.h \
  tensorflowlite_mbed/tensorflow/lite/micro/compatibility.h \

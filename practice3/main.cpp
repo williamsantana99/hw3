@@ -1,6 +1,7 @@
 #include "mbed.h"
 #include "mbed_rpc.h"
 
+#include "uLCD_4DGL.h"
 ///////////////////////////////
 
 #include "accelerometer_handler.h"
@@ -14,6 +15,10 @@
 #include "tensorflow/lite/micro/micro_mutable_op_resolver.h"
 #include "tensorflow/lite/schema/schema_generated.h"
 #include "tensorflow/lite/version.h"
+
+//////////////////////////////////////////////
+
+uLCD_4DGL uLCD(D1, D0, D2); // serial tx, serial rx, reset pin;
 
 ///////////////////////////////////////////////
 
@@ -31,7 +36,6 @@ int angle;
 constexpr int kTensorArenaSize = 60 * 1024;
 
 uint8_t tensor_arena[kTensorArenaSize];
-
 
 // Return the result of the last prediction
 
@@ -312,11 +316,13 @@ int gesture(Arguments *in, Reply *out) {
       angle=60;
       printf("angle is %d",angle);
     }
-    /////////////////////////////
+
+    uLCD.printf("threshold angle is %d\n",angle);
+    ///////////////////////////// 
 
   }
-  
 
+  
 }
 
 ////////////////////////////////////////////////////////
