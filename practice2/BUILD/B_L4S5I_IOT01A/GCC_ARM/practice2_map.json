@@ -15,16 +15,16 @@
         "size": {
             ".text": 238,
             ".data": 10,
-            ".bss": 51,
-            ".text-delta": 44,
+            ".bss": 36,
+            ".text-delta": -2,
             ".data-delta": 0,
-            ".bss-delta": 0
+            ".bss-delta": -11
         }
     },
     {
         "module": "[lib]/c.a",
         "size": {
-            ".text": 46224,
+            ".text": 48828,
             ".data": 2474,
             ".bss": 89,
             ".text-delta": 0,
@@ -79,12 +79,12 @@
     {
         "module": "main.o",
         "size": {
-            ".text": 3606,
+            ".text": 1024,
             ".data": 4,
-            ".bss": 415,
-            ".text-delta": 20,
+            ".bss": 1386,
+            ".text-delta": -2814,
             ".data-delta": 0,
-            ".bss-delta": 0
+            ".bss-delta": -41
         }
     },
     {
@@ -101,10 +101,10 @@
     {
         "module": "mbed-os/connectivity",
         "size": {
-            ".text": 10928,
+            ".text": 9828,
             ".data": 99,
             ".bss": 181,
-            ".text-delta": 0,
+            ".text-delta": -1100,
             ".data-delta": 0,
             ".bss-delta": 0
         }
@@ -112,7 +112,7 @@
     {
         "module": "mbed-os/drivers",
         "size": {
-            ".text": 1732,
+            ".text": 4322,
             ".data": 0,
             ".bss": 928,
             ".text-delta": 0,
@@ -123,10 +123,10 @@
     {
         "module": "mbed-os/events",
         "size": {
-            ".text": 1526,
+            ".text": 1520,
             ".data": 0,
             ".bss": 3104,
-            ".text-delta": 0,
+            ".text-delta": -6,
             ".data-delta": 0,
             ".bss-delta": 0
         }
@@ -134,7 +134,7 @@
     {
         "module": "mbed-os/hal",
         "size": {
-            ".text": 1646,
+            ".text": 1658,
             ".data": 8,
             ".bss": 114,
             ".text-delta": 0,
@@ -145,9 +145,9 @@
     {
         "module": "mbed-os/platform",
         "size": {
-            ".text": 4552,
+            ".text": 5418,
             ".data": 260,
-            ".bss": 428,
+            ".bss": 516,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -178,9 +178,9 @@
     {
         "module": "mbed-os/targets",
         "size": {
-            ".text": 19272,
+            ".text": 20108,
             ".data": 8,
-            ".bss": 1636,
+            ".bss": 1664,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -198,10 +198,10 @@
         }
     },
     {
-        "module": "wifi_mqtt/MQTT",
+        "module": "mbed_rpc/mbed_rpc",
         "size": {
-            ".text": 2044,
-            ".data": 0,
+            ".text": 838,
+            ".data": 16,
             ".bss": 4,
             ".text-delta": 0,
             ".data-delta": 0,
@@ -209,11 +209,22 @@
         }
     },
     {
+        "module": "wifi_mqtt/MQTT",
+        "size": {
+            ".text": 462,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": -1582,
+            ".data-delta": 0,
+            ".bss-delta": -4
+        }
+    },
+    {
         "summary": {
-            "static_ram": 17824,
-            "static_ram_delta": 0,
-            "total_flash": 123964,
-            "total_flash_delta": 64
+            "static_ram": 18912,
+            "static_ram_delta": -56,
+            "total_flash": 126456,
+            "total_flash_delta": -5504
         }
     }
 ]

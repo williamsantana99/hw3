@@ -337,4 +337,9 @@ BUILD/B_L4S5I_IOT01A/GCC_ARM/main.o: main.cpp \
  BSP_B-L475E-IOT01/Drivers/BSP/B-L475E-IOT01/stm32l475e_iot01.h \
  BSP_B-L475E-IOT01/Drivers/BSP/B-L475E-IOT01/../Components/lsm6dsl/lsm6dsl.h \
  BSP_B-L475E-IOT01/Drivers/BSP/B-L475E-IOT01/../Components/lsm6dsl/../Common/accelero.h \
- BSP_B-L475E-IOT01/Drivers/BSP/B-L475E-IOT01/../Components/lsm6dsl/../Common/gyro.h
+ BSP_B-L475E-IOT01/Drivers/BSP/B-L475E-IOT01/../Components/lsm6dsl/../Common/gyro.h \
+ mbed_rpc/mbed_rpc/mbed_rpc.h mbed_rpc/mbed_rpc/rpc.h \
+ mbed_rpc/mbed_rpc/Arguments.h \
+ /home/ee2405/ee2405/mbed-os/connectivity/mbedtls/include/mbedtls/platform.h \
+ mbed_rpc/mbed_rpc/RPCVariable.h mbed_rpc/mbed_rpc/RPCFunction.h \
+ mbed_rpc/mbed_rpc/RpcClasses.h
